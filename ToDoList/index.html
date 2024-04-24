@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/modalTask.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="CSS/category.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -34,7 +36,7 @@
             <img class="indexIcon" src="imgs/Navbarra/Group 167.png" alt="">
             <img src="imgs/Navbarra/Group 168.png" alt="" class="calendar">
             <div class="btnplus">
-                <a href="task.html" class="plus">
+                <a href="#" id="plus" class="plus">
                     <img class="elipse" src="imgs/Navbarra/add/Ellipse 14.png" alt="">
                     <img src="imgs/Navbarra/add/add.png" alt="" class="add">
                 </a>
@@ -44,6 +46,30 @@
 
         </div>
     </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close"></span>
+            <p>Add Task</p>
+            <input type="text" id="texto" name="texto" placeholder="Do math homework">
+            <p class="desc">Description</p>
+            <div class="outlines">
+                <img src="imgs/taskscreen/timer.png" alt="">
+                <a href="#" id="tag" class="categorybtn"><img src="imgs/taskscreen/tag.png" alt=""></a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <div id="tagModal" class="categoryModal">
+        <div class="category-content">
+            <span class="close"></span>
+            
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
 </body>
+
 
 </html>
