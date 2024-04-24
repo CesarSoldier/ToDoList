@@ -6,13 +6,11 @@
     gap: 0px;
     opacity: 0px;
     background-color: #121212;
-    display: l;
-    
 
 }
 
 .statusbar {
-    width: 375px;
+    max-width: 375px;
     height: 44px;
 }
 
@@ -28,10 +26,78 @@
 
 .indexinf {
     padding-top: 180px;
+    padding-bottom: 230px;
 }
 
 .infos {
     text-align: center;
     color: white;
     font-family: Lato
+}
+
+.navBar {
+    max-width: auto;
+    height: 80px;
+    margin-top: 30px;
+    opacity: 0px;
+    background-color:#363636;
+    ;
+
+}
+
+.indexIcon,
+.calendar,
+.focuse,
+.profile {
+    width: 48px;
+    height: 50px;
+    top: 36px;
+    left: 20px;
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+}
+
+.indexIcon {
+   margin-left: 14px;
+   z-index: 1px;
+}
+
+.calendar {
+    margin-left: 23px;
+    z-index: 2px;
+}
+
+.focuse {
+    margin-left: 33px;
+    z-index: 3px;
+}
+
+.profile {
+    margin-left: 20px;
+    z-index: 4px;
+}
+
+.btnplus{
+    width: 64px;
+    height: 64px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.elipse {
+    width: 64px;
+    height: 64px;
+    margin-top: -9px;
+    margin-left: 15px;
+}
+
+.add {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 15px;
+    margin-left: -47.7px;
+
 }
